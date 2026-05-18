@@ -1,48 +1,16 @@
-# PulseBoard - Team Task Manager 🚀
+# React + Vite
 
-## 📌 Overview
-PulseBoard is a full-stack team task management application that allows users to create projects, assign tasks, and track progress with role-based access (Admin/Member).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🔥 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- 🔐 Authentication (Signup/Login)
-- 👥 Role-based access (Admin / Member)
-- 📁 Project management
-- 📝 Task creation & assignment
-- 📊 Task status tracking (Pending / In Progress / Completed)
-- ⚡ Dashboard view
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-### Frontend
-- React (Vite)
-- Axios
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- SQLite (better-sqlite3)
-
----
-
-## 🌐 Live Demo
-
-Frontend:
-👉 https://pulseboard-task-manager.vercel.app/
-
-Backend:
-👉 https://pulseboard-task-manager-production.up.railway.app
-
----
-
-## ⚙️ Installation (Local Setup)
-
-### 1. Clone repo
-```bash
-git clone https://github.com/Bhavya-161/pulseboard-task-manager.git
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
